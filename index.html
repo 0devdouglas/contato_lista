@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Lista de Contatos</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+      </tr>
+    </thead>
+    <tbody id="contacts-table">
+      <!-- Conteúdo da tabela será adicionado dinamicamente via JavaScript -->
+    </tbody>
+  </table>
+
+  <h2>Adicionar Contato</h2>
+
+  <form id="contact-form">
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="phone">Telefone:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div>
+      <button type="submit">Adicionar Contato</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
